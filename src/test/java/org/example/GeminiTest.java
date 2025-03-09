@@ -11,7 +11,7 @@ import java.io.IOException;
 public class GeminiTest {
     @Test
     public void testGoogleAPI() throws HttpException, IOException {
-        //geminiAPIProcess("What is your name?");
+        geminiAPIProcess("What is your name?");
         geminiAPIStreamContents("weather in Nigeria");
 
     }
