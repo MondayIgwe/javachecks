@@ -23,7 +23,6 @@ public class GeminiAPI {
      * Developer backend.
      **/
 
-
     public static void geminiAPIProcess(String query) throws HttpException, IOException {
         // Instantiate the client. The client by default uses the Gemini API. It gets
         // the API key from the environment variable `GOOGLE_API_KEY`.

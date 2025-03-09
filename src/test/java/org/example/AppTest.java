@@ -29,7 +29,7 @@ public class AppTest {
 
     @Test
     public void testJsonData() throws IOException {
-        Pojo pojo = CommonUtils.getDatFromJson("src/main/resources/learnToProgram/payload.json");
+        Pojo pojo = CommonUtils.getDatFromJson("src/main/resources/learnToProgram/person.json.json");
         System.out.println(pojo.getName());
     }
 
